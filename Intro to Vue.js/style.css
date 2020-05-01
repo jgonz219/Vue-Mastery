@@ -1,67 +1,52 @@
-Skip to content
-
-Search…
-All gists
-Back to GitHub
-@jgonz219
-@atomjar atomjar/product_style
-Last active 6 days ago • Report abuse
-31
-17
- Code Revisions 3 Stars 31 Forks 17
-<script src="https://gist.github.com/atomjar/67db5aa9b7b9013dcf0d91c91f54e1a9.js"></script>
-
-Stylesheet for Vue Mastery's Intro to Vue course
- product_style
- body {
+body {
     font-family: tahoma;
     color:#282828;
     margin: 0px;
-  }
+}
 
-  .nav-bar {
+.nav-bar {
     background: linear-gradient(-90deg, #84CF6A, #16C0B0);
     height: 60px;
     margin-bottom: 15px;
-  }
+}
 
-  .product {
+.product {
     display: flex;
     flex-flow: wrap;
     padding: 1rem;
-  }
+}
 
-  img {
+img {
     border: 1px solid #d8d8d8;
     width: 70%;
     margin: 40px;
     box-shadow: 0px .5px 1px #d8d8d8;
-  }
+}
 
-  .product-image {
+.product-image {
     width: 80%;
-  }
+}
 
-  .product-image,
-  .product-info {
+.product-image,
+.product-info {
     margin-top: 10px;
     width: 50%;
-  }
+}
 
-  .color-box {
+.color-box {
     width: 40px;
     height: 40px;
     margin-top: 5px;
-  }
+}
 
-  .cart {
+.cart {
     margin-right: 25px;
     float: right;
     border: 1px solid #d8d8d8;
     padding: 5px 20px;
-  }
+}
 
-  button {
+button {
     margin-top: 30px;
     border: none;
     background-color: #1E95EA;
@@ -69,165 +54,36 @@ Stylesheet for Vue Mastery's Intro to Vue course
     height: 40px;
     width: 100px;
     font-size: 14px;
-  }
+}
 
-  .disabledButton {
+.disabledButton {
     background-color: #d8d8d8;
-  }
+}
 
-  .review-form {
+.review-form {
     width: 400px;
     padding: 20px;
     margin: 40px;
     border: 1px solid #d8d8d8;
-  }
+}
 
-  input {
+input {
     width: 100%;
     height: 25px;
     margin-bottom: 20px;
-  }
+}
 
-  textarea {
+textarea {
     width: 100%;
     height: 60px;
-  }
+}
 
-  .tab {
+.tabs {
     margin-left: 20px;
     cursor: pointer;
-  }
+}
 
-  .activeTab {
+.activeTab {
     color: #16C0B0;
     text-decoration: underline;
-  }
-@mohammadrezabehruz
-mohammadrezabehruz commented on Feb 15
-Thank you. It was so fantastic and usefull
-
-@cakcak27
-cakcak27 commented on Feb 23
-thanks. this is very usefull.
-
-@djibba22
-djibba22 commented on Feb 23
-Thanks! This is incredibly handy.
-
-@GreggX
-GreggX commented on Feb 24
-Thank you so much! Awesome course.
-
-@Vidyakathare
-Vidyakathare commented on Mar 10
-Thank you.
-
-@gichimux
-gichimux commented on Mar 12
-thanks!
-
-@gallagherbros
-gallagherbros commented on Mar 17
-Thanks!
-
-@Castrosteven
-Castrosteven commented on Mar 19
-nice
-
-@DPBermudez
-DPBermudez commented on Mar 20
-Thanks a lot. It's very usefull
-
-@skim0726
-skim0726 commented on Mar 23
-fantastic!
-
-@cvasquez1425
-cvasquez1425 commented on Apr 4
-Many Thanks.
-
-@reneevanh
-reneevanh commented on Apr 5
-Fantastic! Thank you
-
-@sbuteryd
-sbuteryd commented on Apr 6
-Thanks.
-
-@colebearski
-colebearski commented on Apr 10
-Alright, alright, alright.
-
-@Krondon25
-Krondon25 commented on Apr 22
-Gracias.
-
-@izoo
-izoo commented on Apr 27
-Thanks for this great help much appreciated
-
-@katherinehg
-katherinehg commented on May 13
-Thanks a lot !
-
-@lonnyrichard27
-lonnyrichard27 commented on Jun 5
-This is amazing thanks!
-
-@Van-peterson
-Van-peterson commented on Jul 10
-Thanks a lot, we've so much appreciate it
-
-@m2paulc
-m2paulc commented on Jul 19
-Thank you for this great course!
-
-@victorfds
-victorfds commented on Jul 21
-Thank you.
-
-@Theodory
-Theodory commented on Aug 6
-Nice
-
-@deividisss
-deividisss commented on Aug 6
-var Thanks
-
-@selimparmaksiz
-selimparmaksiz commented on Aug 17
-Thanks, very nice styling
-
-@AyushShaw
-AyushShaw commented 27 days ago
-Thank you!!
-
-@anton1408
-anton1408 commented 22 days ago
-ty!)
-
-@yoshisansan
-yoshisansan commented 14 days ago
-thx!
-
-@joseguamanp
-joseguamanp commented 6 days ago
-gracias
-
-@jgonz219
-
-Leave a comment
-
-Attach files by dragging & dropping, selecting them.
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+}
